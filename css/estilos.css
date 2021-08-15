@@ -1,0 +1,117 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.text-facebook{
+width:45%;
+left:130px;
+top: 160px;
+position: absolute;
+overflow: hidden;
+}
+
+.img{
+width:50%;
+}
+
+.text-intro{
+ font-size: 28px;
+ font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+ width:90%;
+ margin-left:30px;
+}
+
+
+/*DISEÑO DE FORMULARIO*/
+.formulario{
+background-color:white;
+overflow: hidden;
+width: 396px;
+height: 350px;
+border-radius: 10px;
+right:205px;
+top: 130px;
+position: absolute;
+
+box-shadow:1px 1px 20px rgb(212, 212, 212), 
+          -1px -1px 10px rgb(212, 212, 212);
+}
+
+.input-text{
+width: 92%;
+height:48px;
+margin-left:4%;
+font-size: 17px;
+font-family: Arial, Helvetica, sans-serif;
+padding: 14px 16px;
+border-radius:5px;
+border-color: rgb(219, 217, 217);
+border-width: 1px;
+border-style:solid;
+}
+
+.button-enviar{
+ width: 92%;
+ height:48px;
+ margin-left: 4%;
+ font-family:Arial, Helvetica, sans-serif, inherit;
+ font-size: 20px;
+ padding: 14px 16px;
+ border-radius:6px;
+ border: none;
+ color:white;
+ background-color: #1877f2;
+ cursor: pointer;
+}
+
+.button-enviar:hover{
+ background-color:#196cda;
+}
+
+.formulario a{
+text-decoration: none;
+color:#1877f2;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+margin-left:100px;
+}
+
+.formulario a:hover{
+ text-decoration:#1877f2;
+}
+
+.button-crearCuenta{
+width:190px;
+height:45px;
+position:relative;
+background-color: #42b72a;
+cursor: pointer;
+overflow: hidden;
+border-radius: 6px;
+margin-left:100px;
+margin-top:30px
+}
+
+.text{
+ font-size:17px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: white;
+ margin-top: 13px;
+ margin-left:15px;
+ float: left;
+}
+
+.button-crearCuenta:hover{
+background-color:#39a125;
+}
+
+.linea{
+ width:95%;
+ height:0.5;
+ background-color: rgb(219, 217, 217);
+ border-radius:50%;
+
+}
